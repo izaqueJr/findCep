@@ -5,38 +5,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Consulta cep</title>
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/style.css">
 </head>
 
 <body>
 
-  <div class="container" style="margin-top:40px ;">
+  <div class="container">
     <h1>Consultando o Cep</h1>
     <form>
       <div class="form-group">
         <label for="cep">CEP</label>
-        <input type="text" class="form-control" id="cep" maxlength="9">
-        <small>00000-000</small>
+        <br>
+        <input type="text" class="form-control" id="cep" maxlength="9" placeholder="00000-000">
       </div>
+
       <div class="form-group">
         <label for="logradouro">Logradouro</label>
-        <input type="text" class="form-control" id="logradouro">
-        <small>Rua. </small>
+        <br>
+        <input type="text" class="form-control" id="logradouro" placeholder="Rua, travessa...">
       </div>
+
       <div class="form-group">
         <label for="bairro">Bairro</label>
-        <input type="text" class="form-control" id="bairro">
-        <small>Bairro</small>
+        <br>
+        <input type="text" class="form-control" id="bairro" placeholder="Bairro">
       </div>
+
       <div class="form-group">
         <label for="localidade">Localidade</label>
-        <input type="text" class="form-control" id="localidade">
-        <small>Cidade</small>
+        <br>
+        <input type="text" class="form-control" id="localidade" placeholder="Cidade">
       </div>
+
       <div class="form-group">
         <label for="uf">UF</label>
-        <input type="text" class="form-control" id="uf">
-        <small>Estado</small>
+        <br>
+        <input type="text" class="form-control" id="uf" placeholder="Estado">
       </div>
 
     </form>
